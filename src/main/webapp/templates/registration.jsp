@@ -40,6 +40,6 @@
         </div>
     </spring:bind>
 
-    <button type="submit" class="btn-primary">Register</button>
+    <button type="submit" class="btn btn-lg btn-primary btn-block">Register</button>
 
 </sf:form>

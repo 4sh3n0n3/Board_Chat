@@ -1,0 +1,14 @@
+ru\bagautdinov\form\UserRegistrationForm.class
+ru\bagautdinov\model\Comment.class
+ru\bagautdinov\service\impl\UserServiceImpl.class
+ru\bagautdinov\service\UserService.class
+ru\bagautdinov\util\UserRegistrationFormMapping.class
+ru\bagautdinov\model\Board.class
+ru\bagautdinov\model\Theme.class
+ru\bagautdinov\model\enums\Roles.class
+ru\bagautdinov\security\AuthProviderImpl.class
+ru\bagautdinov\controller\UserController.class
+ru\bagautdinov\model\Banhammer.class
+ru\bagautdinov\repository\UserRepository.class
+ru\bagautdinov\util\validators\UserFormValidator.class
+ru\bagautdinov\model\User.class

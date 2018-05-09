@@ -1,7 +1,6 @@
 package ru.bagautdinov.controller;
 
 
-import com.sun.corba.se.spi.ior.ObjectKey;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,6 +22,11 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    @RequestMapping(value = "login")
+    public String loginPage(Model m) {
+        return "login";
+    }
+
     @GetMapping(value = "/registration")
     public String registration(Model m) {
         m.addAttribute("userform", new UserRegistrationForm());
@@ -41,8 +45,12 @@ public class UserController {
             ObjectError mailError = userService.checkEmail(form.getEmail());
             ObjectError nameError = userService.checkUsername(form.getUsername());
 
-            result.addError(mailError);
-            result.addError(nameError);
+            if (mailError != null) {
+                result.addError(mailError);
+            }
+            if (nameError != null) {
+                result.addError(nameError);
+            }
 
             return "/registration";
         }
