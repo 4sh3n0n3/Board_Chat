@@ -7,6 +7,9 @@
 
 <c:url value="/login/process" var="logIn" />
 <form action="${logIn}" method="post">
+    <c:if test="${param.error}" >
+        <h2>Invalid username or password</h2>
+    </c:if>
     <label for="loginUsername">Username: </label>
     <input id="loginUsername" type="text" class="form-control" placeholder="type your username" name="username">
     <label for="loginPassword">Password: </label>

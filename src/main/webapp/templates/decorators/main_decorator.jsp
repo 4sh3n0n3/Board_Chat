@@ -12,6 +12,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="sf" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="C" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <html>
 <head>
@@ -27,7 +28,8 @@
     <header>
         <div class="navbar navbar-dark bg-dark box-shadow">
             <div class="container d-flex justify-content-between">
-                <a href="#" class="navbar-brand d-flex align-items-center">
+                <C:url value="/" var="mainPage" />
+                <a href="${mainPage}" class="navbar-brand d-flex align-items-center">
                     <strong class="logo">BoardChat</strong>
                 </a>
             </div>

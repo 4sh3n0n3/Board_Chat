@@ -5,7 +5,109 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/bagautdinov/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bagautdinov/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/security-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/security-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/decorators/main_decorator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/decorators/main_decorator.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/templates/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/form/UserRegistrationForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/model/Banhammer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/model/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/model/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/model/Theme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/model/enums/Roles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/security/AuthProviderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/util/UserRegistrationFormMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/classes/ru/bagautdinov/util/validators/UserFormValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/decorators.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.6.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-5.2.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/jstl-jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/postgresql-9.3-1100-jdbc41.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/sitemesh-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-2.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/persistence-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/root-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/security-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/sitemesh.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/resources/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/resources/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/templates/decorators/main_decorator.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/templates/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/templates/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Semester_Work_1-1.0-SNAPSHOT/templates/registration.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/form/UserRegistrationForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/model/Banhammer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/model/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/model/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/model/Theme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/model/enums/Roles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/security/AuthProviderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/util/UserRegistrationFormMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/bagautdinov/util/validators/UserFormValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-05-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Semester_Work_1/org/apache/jsp/templates/decorators/main_005fdecorator_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Semester_Work_1/org/apache/jsp/templates/decorators/main_005fdecorator_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Semester_Work_1/org/apache/jsp/templates/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Semester_Work_1/org/apache/jsp/templates/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Semester_Work_1/org/apache/jsp/templates/login_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Semester_Work_1/org/apache/jsp/templates/login_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Semester_Work_1/org/apache/jsp/templates/registration_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/Semester_Work_1/org/apache/jsp/templates/registration_jsp.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,32 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserFormValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/bagautdinov/util/validators/UserFormValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRegistrationFormMapping.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/bagautdinov/util/UserRegistrationFormMapping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/bagautdinov/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,33 +147,56 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/bagautdinov/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+            <state relative-caret-position="322">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#724#725#0" expanded="true" />
                 <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#1869#1870#0" expanded="true" />
-                <element signature="e#1899#1900#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="security-config.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="security-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="187">
+              <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/bagautdinov/controller/BaseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_decorator.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/decorators/main_decorator.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -166,7 +265,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/bagautdinov/model/foreign_tables/CommentsRelations.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/bagautdinov/model/Comment.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/templates/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/templates/decorators/main_decorator.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ru/bagautdinov/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/persistence-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/bagautdinov/repository/UserRepository.java" />
@@ -176,9 +274,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/bagautdinov/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/bagautdinov/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/templates/registration.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/templates/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/bagautdinov/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/bagautdinov/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/bagautdinov/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/templates/decorators/main_decorator.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/templates/login.jsp" />
       </list>
     </option>
   </component>
@@ -522,15 +622,16 @@
       <workItem from="1525417107683" duration="485000" />
       <workItem from="1525510891368" duration="7611000" />
       <workItem from="1525597432899" duration="20150000" />
-      <workItem from="1525859460801" duration="5476000" />
+      <workItem from="1525859460801" duration="7031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54298000" />
+    <option name="totallyTimeSpent" value="55853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50130206" side_tool="true" weight="0.30206898" />
@@ -608,13 +709,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/root-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/bagautdinov/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -668,8 +762,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#724#725#0" expanded="true" />
             <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-            <element signature="e#1899#1900#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -867,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/decorators/main_decorator.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -970,31 +1055,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="187">
+          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/bagautdinov/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        <state relative-caret-position="322">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#724#725#0" expanded="true" />
             <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-            <element signature="e#1899#1900#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/bagautdinov/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/decorators/main_decorator.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>

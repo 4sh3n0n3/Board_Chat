@@ -56,9 +56,4 @@ public class UserController {
         }
         return "redirect:/home";
     }
-
-    @RequestMapping(value = "/home", method = RequestMethod.GET)
-    public String getHomePage() {
-        return "index";
-    }
 }
