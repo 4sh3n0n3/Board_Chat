@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<decorators defaultdir="/templates/decorators">
+    <excludes>
+        <pattern>/resources/**</pattern>
+        <pattern>/META-INF/*</pattern>
+    </excludes>
+
+    <decorator name="MainDecorator" page="main_decorator.jsp" >
+        <pattern>*</pattern>
+    </decorator>
+</decorators>
