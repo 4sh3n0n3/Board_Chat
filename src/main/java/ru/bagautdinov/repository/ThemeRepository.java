@@ -14,4 +14,5 @@ public interface ThemeRepository extends JpaRepository<Theme, Long> {
     List<Theme> findByOwner(User user);
     Theme findById(long id);
     List<Theme> findByOwnerAndBoard(User owner, Board board);
+    void deleteById(long id);
 }

@@ -1,7 +1,10 @@
 package ru.bagautdinov.model;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.*;
 import java.util.Collection;
+import java.util.Date;
 
 @Entity
 @SequenceGenerator(name = "comment_gen", sequenceName = "comment_seq", allocationSize = 1)
@@ -25,7 +28,14 @@ public class Comment {
     @JoinColumn(name = "answer_to")
     private Comment answerTo;
 
+    @Column(name = "created_at")
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date createdAt = new Date();
 
+
+    public Date getCreatedAt() {
+        return createdAt;
+    }
     public long getId() {
         return id;
     }
@@ -39,6 +49,9 @@ public class Comment {
         return answerTo;
     }
 
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
     public void setId(long id) {
         this.id = id;
     }

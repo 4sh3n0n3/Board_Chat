@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface BoardRepository extends JpaRepository<Board, Long> {
-    List<Board> findAll();
     Board findByLink(String link);
     Board findByName(String name);
+    void deleteById(long id);
 }
