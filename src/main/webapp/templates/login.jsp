@@ -18,4 +18,6 @@
 </form>
 <h2>Isn't registered yet? Here U go:</h2>
 <c:url value="/registration" var="register" />
-<button class="btn btn-sm btn-danger btn-block" type="button" href="${register}">Register</button>
+<form action="${register}">
+    <button class="btn btn-sm btn-danger btn-block" type="submit">Register</button>
+</form>

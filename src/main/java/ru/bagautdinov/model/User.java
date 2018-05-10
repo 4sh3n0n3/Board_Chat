@@ -60,7 +60,7 @@ public class User {
     }
 
 
-    @OneToMany(mappedBy = "owner", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "owner", fetch = FetchType.EAGER)
     private Collection<Theme> themes;
     public void setThemes(Collection<Theme> themes) {
         this.themes = themes;
@@ -70,7 +70,7 @@ public class User {
     }
 
 
-    @OneToMany(mappedBy = "writer", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "writer", fetch = FetchType.EAGER)
     private Collection<Comment> comments;
     public void setComments(Collection<Comment> comments) {
         this.comments = comments;

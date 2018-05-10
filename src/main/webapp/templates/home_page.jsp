@@ -5,12 +5,12 @@
 
 <h2>Welcome to Board Chat, stranger!</h2>
 <h4>Select your path:</h4>
-<div class="content">
     <c:forEach items="${boards}" var="board">
+        <div class="jumbotron">
         <div class="box" style="text-align: center">
             <c:url value="/${board.link}" var="toBoard" />
             <a href="${toBoard}" style="color: #122b40">${board.name} </a>
         </div>
+        </div>
         <br>
     </c:forEach>
-</div>

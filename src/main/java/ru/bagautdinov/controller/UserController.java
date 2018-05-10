@@ -59,4 +59,10 @@ public class UserController {
         return "redirect:/home";
     }
 
+    @GetMapping(value = "/users/{username}")
+    public String showUser(@PathVariable String  username, Model model) {
+        User user = userRepository.findByUsername(username);
+        model.addAttribute(user);
+        return "userpage";
+    }
 }

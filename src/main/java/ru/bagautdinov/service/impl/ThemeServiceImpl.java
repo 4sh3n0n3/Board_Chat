@@ -2,11 +2,13 @@ package ru.bagautdinov.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import ru.bagautdinov.form.ThemeForm;
 import ru.bagautdinov.model.Board;
 import ru.bagautdinov.model.Theme;
 import ru.bagautdinov.model.User;
 import ru.bagautdinov.repository.ThemeRepository;
 import ru.bagautdinov.service.ThemeService;
+import ru.bagautdinov.util.ThemeFormMapping;
 
 import java.util.Date;
 
@@ -16,13 +18,7 @@ public class ThemeServiceImpl implements ThemeService {
     ThemeRepository themeRepository;
 
     @Override
-    public void addNewTheme(User owner, Board board, String name, String content) {
-        Theme theme = new Theme();
-        theme.setBoard(board);
-        theme.setContent(content);
-        theme.setName(name);
-        theme.setOwner(owner);
-        theme.setCreatedAt(new Date());
-        themeRepository.save(theme);
+    public void addNewTheme(User owner, Board board, ThemeForm form) {
+        themeRepository.save(ThemeFormMapping.transform(board, owner, form));
     }
 }

@@ -5,7 +5,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
 <div class="container jumbotron" style="text-align: center;">
-    <c:url value="/users/${theme.owner.id}" var="themeOwner" />
+    <c:url value="/users/${theme.owner.username}" var="themeOwner" />
     <h4 style="color: #122b40">${theme.name}</h4>
     <a href="${themeOwner}">${theme.owner.username}</a>
     <p>${theme.content}</p>
@@ -16,7 +16,7 @@
     <c:forEach items="${comments}" var="comment">
 
         <div class="content jumbotron">
-            <c:url value="/users/${comment.writer.id}" var="owner" />
+            <c:url value="/users/${comment.writer.username}" var="owner" />
             <a href="${owner}">${comment.writer.username}</a>
             <p>${comment.content}</p>
             
@@ -39,9 +39,11 @@
         <sf:errors/>
         <spring:bind path="content">
             <sf:input type="text" path="content" />
+            <sf:errors path="content"/>
         </spring:bind>
         <spring:bind path="answerTo">
             <sf:input id="answer" path="answerTo" type="text" onkeypress="return false"/>
+            <sf:errors path="answerTo"/>
         </spring:bind>
         <button type="submit" class="btn">Comment</button>
     </sf:form>
