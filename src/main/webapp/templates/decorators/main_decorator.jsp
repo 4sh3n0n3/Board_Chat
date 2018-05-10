@@ -13,6 +13,7 @@
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="sf" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix="C" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 
 <html>
 <head>
@@ -32,6 +33,12 @@
                 <a href="${mainPage}" class="navbar-brand d-flex align-items-center">
                     <strong class="logo">BoardChat</strong>
                 </a>
+                <sec:authorize access="isAuthenticated()">
+                    <c:url value="/logout" var="logOut" />
+                    <form action="${logOut}">
+                        <button type="submit" class="btn btn-danger">logOut</button>
+                    </form>
+                </sec:authorize>
             </div>
         </div>
     </header>

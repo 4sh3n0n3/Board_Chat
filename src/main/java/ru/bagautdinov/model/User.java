@@ -78,4 +78,13 @@ public class User {
     public Collection<Comment> getComments() {
         return comments;
     }
+
+    @OneToOne(mappedBy = "banned")
+    private BanList banList;
+    public void setBanList(BanList banList) {
+        this.banList = banList;
+    }
+    public BanList getBanList() {
+        return banList;
+    }
 }

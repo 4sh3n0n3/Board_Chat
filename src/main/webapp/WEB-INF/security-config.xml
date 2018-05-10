@@ -9,7 +9,8 @@
         <security:intercept-url pattern="/login" access="isAnonymous()"/>
         <security:intercept-url pattern="/registration" access="isAnonymous()"/>
         <security:intercept-url pattern="/resources/**" access="permitAll()"/>
-        <security:intercept-url pattern="/**" access="hasRole('ROLE_USER')"/>
+        <security:intercept-url pattern="/**" access="hasAnyRole('ROLE_ADMIN', 'ROLE_USER')"/>
+        <security:intercept-url pattern="/admin/**" access="hasRole('ROLE_ADMIN')"/>
         <security:csrf disabled="true"/>
         <security:form-login
                 login-page="/login"

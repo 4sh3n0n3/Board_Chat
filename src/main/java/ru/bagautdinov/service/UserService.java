@@ -13,4 +13,5 @@ public interface UserService {
     ObjectError checkUsername(String username);
     ObjectError checkEmail(String email);
     User getAuthenticatedUser();
+
 }
