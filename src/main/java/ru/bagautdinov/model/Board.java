@@ -16,7 +16,7 @@ public class Board {
     private long id;
 
     @Column(name = "name", unique = true, nullable = false)
-    private long name;
+    private String name;
 
     @Column(name = "link", unique = true, nullable = false)
     private String link;
@@ -24,7 +24,7 @@ public class Board {
     public void setId(long id) {
         this.id = id;
     }
-    public void setName(long name) {
+    public void setName(String  name) {
         this.name = name;
     }
     public void setLink(String link) {
@@ -34,7 +34,7 @@ public class Board {
     public long getId() {
         return id;
     }
-    public long getName() {
+    public String getName() {
         return name;
     }
     public String getLink() {

@@ -28,7 +28,7 @@ public class Theme {
     @Column(name = "content", nullable = false)
     private String content;
 
-    @Column(name = "created_at", nullable = false, insertable = false)
+    @Column(name = "created_at", nullable = false)
     @Temporal(TemporalType.TIMESTAMP)
     private Date createdAt = new Date();
 
