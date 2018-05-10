@@ -16,13 +16,16 @@ public class Comment {
     @Column(name = "id", nullable = false, insertable = false)
     private long id;
 
-    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @ManyToOne
     @JoinColumn(name = "theme", nullable = false)
     private Theme theme;
 
     @ManyToOne
     @JoinColumn(name = "writer", nullable = false)
     private User writer;
+
+    @Column(name = "content")
+    private String content;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "answer_to")
@@ -32,7 +35,9 @@ public class Comment {
     @Temporal(TemporalType.TIMESTAMP)
     private Date createdAt = new Date();
 
-
+    public String getContent() {
+        return content;
+    }
     public Date getCreatedAt() {
         return createdAt;
     }
@@ -49,6 +54,9 @@ public class Comment {
         return answerTo;
     }
 
+    public void setContent(String content) {
+        this.content = content;
+    }
     public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
     }

@@ -8,6 +8,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
 import ru.bagautdinov.form.UserRegistrationForm;
+import ru.bagautdinov.model.User;
 import ru.bagautdinov.repository.UserRepository;
 import ru.bagautdinov.service.UserService;
 
@@ -34,7 +35,8 @@ public class UserController {
     }
 
     @PostMapping(value = "/registration")
-    public String registerUser(@ModelAttribute("userform") @Valid UserRegistrationForm form, BindingResult result) {
+    public String registerUser(@ModelAttribute("userform") @Valid UserRegistrationForm form,
+                               BindingResult result, Model m) {
         if (result.hasErrors()) {
             return "/registration";
         }
@@ -56,4 +58,5 @@ public class UserController {
         }
         return "redirect:/home";
     }
+
 }

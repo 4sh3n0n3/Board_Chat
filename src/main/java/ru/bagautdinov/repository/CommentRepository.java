@@ -13,5 +13,6 @@ public interface CommentRepository extends JpaRepository<Comment, Long> {
     List<Comment> findByTheme(Theme theme);
     List<Comment> findByWriter(User writer);
     List<Comment> findByAnswerTo(Comment comment);
+    Comment findById(long id);
     void deleteById(long id);
 }

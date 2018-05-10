@@ -3,13 +3,12 @@
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="sf" uri="http://www.springframework.org/tags/form"%>
 
-<h2>Welcome to Board Chat, stranger!</h2>
-<h4>Select your path:</h4>
+
 <div class="content">
-    <c:forEach items="${boards}" var="board">
+    <c:forEach items="${themes}" var="theme">
         <div class="box" style="text-align: center">
-            <c:url value="/${board.link}" var="toBoard" />
-            <a href="${toBoard}" style="color: #122b40">${board.name} </a>
+            <c:url value="/${board.link}/theme/${theme.id}" var="toTheme" />
+            <a href="${toTheme}" style="color: #122b40">${theme.name} </a>
         </div>
         <br>
     </c:forEach>

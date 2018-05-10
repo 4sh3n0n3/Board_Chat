@@ -14,11 +14,11 @@ public class Theme {
     @Column(name = "id", nullable = false, insertable = false)
     private long id;
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne
     @JoinColumn(name = "owner", nullable = false)
     private User owner;
 
-    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @ManyToOne
     @JoinColumn(name = "board", nullable = false)
     private Board board;
 
@@ -73,7 +73,7 @@ public class Theme {
 
 
 
-    @OneToMany(mappedBy = "theme", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "theme")
     private Collection<Comment> comments;
     public void setComments(Collection<Comment> comments) {
         this.comments = comments;

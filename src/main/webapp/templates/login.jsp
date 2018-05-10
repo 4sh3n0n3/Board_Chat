@@ -14,5 +14,8 @@
     <input id="loginUsername" type="text" class="form-control" placeholder="type your username" name="username">
     <label for="loginPassword">Password: </label>
     <input id="loginPassword" type="password" class="form-control" placeholder="****, hehe" name="password">
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
 </form>
+<h2>Isn't registered yet? Here U go:</h2>
+<c:url value="/registration" var="register" />
+<button class="btn btn-sm btn-danger btn-block" type="button" href="${register}">Register</button>
